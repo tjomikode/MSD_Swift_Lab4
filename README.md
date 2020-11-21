@@ -6,6 +6,9 @@ Challenges and issues I could not solve:
 
 * AutoLayout, constraints. I have two labels in each row, so I have to get my second label wrap its text onto the next row, but it wraps like this:
 
+  ![Текст](image_readMe.png)
+  
+  What do I do?
 * Warning message if there are no movies in our list after unknown movie typed. I used `UIAlertController`, but in your example as far as I understood you used segue to another     `ViewController`, did not you? So, I don't know whether `UIAlertController` is good alternative or not in this case?
 
 * For searching movies I am using another array `filteredMoviesArray` where I store filtered list of movies and then use it. It seems like it is working.  
